@@ -3,9 +3,15 @@
 	font-family: FreakGrotesque Next;
 	src: url('/Users/filippogianessi/Documents/Works/My Works/my website 2.0/asset/font/FREAKGrotesk-next.otf');
 }
-
-body {
+html {
+	background-attachment: fixed;
 	background: linear-gradient(to bottom right, #68E0E6, #005AFF);
+	height: 100%;
+    margin:0px;
+    background-size: cover;
+
+}
+body {
 }
 
 a {
@@ -23,6 +29,7 @@ a {
  	    bottom: 0;
  	    left: 0;
  	    z-index: -2;
+ 	    background-attachment: fixed;
  	
  }
 
@@ -67,10 +74,10 @@ a {
 	cursor: pointer;
 }
 
-.links__item:hover {
+/*.links__item:hover {
 	background: transparent;
 	color: white;
-}
+}*/
 .divider__header {
 	height: 40em;
 	width: 2px;
@@ -121,4 +128,18 @@ a {
 .resume__link {
 	color: white;
 	text-decoration: underline;
+}
+.resume__link:hover {
+	 background-color: black;
+}
+
+.credits__container {
+	width: 100%;
+	margin-bottom: 56px;
+}
+.credits__text {
+	font-size: 1.2em;
+	font-family: "FreakGrotesque Next", sans-serif;
+	color: white;
+	text-align: center;
 }
